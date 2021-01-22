@@ -1,5 +1,5 @@
-function filterArray(arr) {
-  // Your code here.
+function filterArray (arr) {
+  return arr.filter(item => typeof (item) === 'number');
 }
 
 module.exports = filterArray;
